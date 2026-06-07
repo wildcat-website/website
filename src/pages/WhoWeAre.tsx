@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import founder1 from "@/img/founder1.png";
-import founder2 from "@/img/founder2.png";
 import founder3 from "@/img/founder3.png";
 
 const WhoWeAre = () => {
@@ -136,7 +135,7 @@ const WhoWeAre = () => {
             <div className="w-16 h-1 bg-brand-amber mx-auto"></div>
           </motion.div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-10 lg:gap-16">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-16 max-w-4xl mx-auto">
             {/* Founder 1 */}
             <motion.div
               initial={{ opacity: 0, y: 30 }}
@@ -163,35 +162,6 @@ const WhoWeAre = () => {
                 Former academic. Sharp pattern thinker. Blends research depth
                 with a creative edge to turn insights into clear, effective
                 direction.
-              </p>
-            </motion.div>
-
-            {/* Founder 2 */}
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-100px" }}
-              transition={{ duration: 0.8, delay: 0.2 }}
-              className="group flex flex-col items-center text-center"
-            >
-              <div className="w-full max-w-[280px] aspect-square rounded-full mb-8 overflow-hidden bg-neutral-50 border border-neutral-100 flex items-center justify-center relative">
-                <div className="absolute inset-0 bg-brand-amber/5 group-hover:bg-brand-amber/20 transition-colors duration-500 rounded-full"></div>
-                <img
-                  src={founder2}
-                  alt="Founder 2"
-                  className="w-full h-full object-cover transition-all duration-500 group-hover:scale-110"
-                />
-              </div>
-              <h3 className="text-3xl font-serif mb-2">Avinash S Kumar</h3>
-              <div className="min-h-[3rem] flex justify-center mb-4 px-2 w-full">
-                <h4 className="text-brand-amber font-medium text-xs tracking-widest uppercase leading-snug max-w-[280px]">
-                  Co-Founder | Principal, Growth &amp; Marketing Ops
-                </h4>
-              </div>
-              <p className="text-neutral-500 font-light text-base md:text-lg max-w-[320px] leading-relaxed">
-                Left corporate early; the ladder wasn't the game. Marketer
-                and multimedia professional crafting narratives that move
-                people.
               </p>
             </motion.div>
 

@@ -88,16 +88,16 @@ const Footer = () => {
             </h3>
             <ul className="space-y-3">
               <li>
-                <span className="text-sm text-neutral-400">Market & Cultural Insight</span>
+                <span className="text-sm text-neutral-400">Market Intelligence & Opportunity</span>
               </li>
               <li>
-                <span className="text-sm text-neutral-400">Brand Strategy</span>
+                <span className="text-sm text-neutral-400">Positioning & Category Strategy</span>
               </li>
               <li>
-                <span className="text-sm text-neutral-400">Brand Narrative</span>
+                <span className="text-sm text-neutral-400">Messaging & Authority Systems</span>
               </li>
               <li>
-                <span className="text-sm text-neutral-400">Performance & Growth</span>
+                <span className="text-sm text-neutral-400">Demand & Growth Infrastructure</span>
               </li>
             </ul>
           </div>

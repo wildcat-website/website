@@ -14,26 +14,26 @@ const HorizontalCapabilities = () => {
   const cards = [
     {
       num: "01",
-      title: "Market & Cultural Insight",
-      desc: "Making sense of the market and culture you operate in.",
+      title: "Market Intelligence & Opportunity",
+      desc: "Uncover where the market is moving and where your brand can win.",
       color: "from-brand-amber/20",
     },
     {
       num: "02",
-      title: "Brand Strategy",
-      desc: "Defining position, direction, and competitive edge.",
+      title: "Positioning & Category Strategy",
+      desc: "Build a position the market instantly understands and remembers.",
       color: "from-brand-amber/15",
     },
     {
       num: "03",
-      title: "Brand Narrative",
-      desc: "Turning strategy into language people remember.",
+      title: "Messaging & Authority Systems",
+      desc: "Turn expertise into trust, relevance, and market influence.",
       color: "from-brand-amber/15",
     },
     {
       num: "04",
-      title: "Performance & Growth",
-      desc: "Making sure it all translates into real market movement.",
+      title: "Demand & Growth Infrastructure",
+      desc: "Create scalable systems that convert attention into growth.",
       color: "from-brand-amber/20",
     },
   ];

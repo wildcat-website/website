@@ -90,12 +90,16 @@ const CapabilitySection = ({
         <h2 className="text-4xl lg:text-5xl font-medium tracking-tight mb-6 transition-colors duration-500 group-hover:text-brand-amber">
           {title}
         </h2>
-        <p className="text-2xl text-brand-charcoal font-serif-display leading-relaxed mb-4">
-          {subtitle}
-        </p>
-        <p className="text-lg text-neutral-600 leading-relaxed mb-10">
-          {description}
-        </p>
+        {subtitle && (
+          <p className="text-2xl text-brand-charcoal font-serif-display leading-relaxed mb-4">
+            {subtitle}
+          </p>
+        )}
+        {description && (
+          <p className="text-lg text-neutral-600 leading-relaxed mb-10">
+            {description}
+          </p>
+        )}
 
         <div className="mt-auto pt-8 border-t border-neutral-100">
           <h3 className="text-sm font-mono tracking-widest text-neutral-500 uppercase mb-6 flex items-center gap-3">
@@ -312,58 +316,58 @@ const Capabilities = () => {
           <div className="space-y-32">
             <CapabilitySection
               number="01"
-              title="Market & Cultural Insight"
-              subtitle="Before anything else, we understand your world."
-              description="We look at your market, your audience, and what’s changing around you—so you’re not making blind decisions."
+              title="Market Intelligence & Opportunity"
+              subtitle=""
+              description=""
               todos={[
-                "Study your market and competitors",
-                "Understand your audience",
-                "Track trends that matter to your space",
-                "Find gaps and opportunities",
+                "Insight & Opportunity Mapping",
+                "Market Signals",
+                "Audience Understanding",
+                "Competitive/Cultural Analysis",
               ]}
-              outcome="You stop guessing and start making informed decisions."
+              outcome="Uncover where the market is moving and where your brand can win."
             />
 
             <CapabilitySection
               number="02"
-              title="Brand Strategy"
-              subtitle="Once we understand the space, we define how you stand out."
-              description="This is about getting clear on who you are, who you’re for, and why people should choose you."
+              title="Positioning & Category Strategy"
+              subtitle=""
+              description=""
               todos={[
-                "Define your brand position",
-                "Clarify your offering",
-                "Identify what makes you different",
-                "Shape your go-to-market approach",
+                "Positioning & Offer Clarity",
+                "Category Design",
+                "Strategic Narrative Architecture",
+                "Market Differentiation",
               ]}
-              outcome="A clear direction for your brand—no confusion, no mixed signals."
+              outcome="Build a position the market instantly understands and remembers."
             />
 
             <CapabilitySection
               number="03"
-              title="Brand Narrative"
-              subtitle="Now we help you say it the right way."
-              description="We turn your strategy into simple, clear messaging that people understand and remember."
+              title="Messaging & Authority Systems"
+              subtitle=""
+              description=""
               todos={[
-                "Build your brand story",
-                "Create messaging guidelines",
-                "Define your tone of voice",
-                "Guide your content direction",
+                "Messaging & Communication",
+                "Founder Narrative",
+                "Authority Building",
+                "Public Narrative & Thought Leadership",
               ]}
-              outcome="Everything you say feels consistent and makes sense to your audience."
+              outcome="Turn expertise into trust, relevance, and market influence."
             />
 
             <CapabilitySection
               number="04"
-              title="Performance & Growth"
-              subtitle="Finally, we help you grow—without losing direction."
-              description="We make sure your marketing efforts are aligned with your strategy and actually drive results."
+              title="Demand & Growth Infrastructure"
+              subtitle=""
+              description=""
               todos={[
-                "Plan growth strategies",
-                "Design campaigns",
-                "Improve your marketing funnel",
-                "Support lead generation efforts",
+                "Demand Generation",
+                "Performance Marketing",
+                "Growth Systems",
+                "Conversion & Revenue Infrastructure",
               ]}
-              outcome="Growth that’s steady and sustainable—not random."
+              outcome="Create scalable systems that convert attention into growth."
             />
           </div>
         </div>
