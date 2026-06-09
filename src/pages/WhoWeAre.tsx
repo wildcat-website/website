@@ -2,9 +2,6 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
-import { Link } from "react-router-dom";
-import founder1 from "@/img/founder1.png";
-import founder3 from "@/img/founder3.png";
 
 const WhoWeAre = () => {
   return (
@@ -81,7 +78,7 @@ const WhoWeAre = () => {
                 }}
                 className="text-sm md:text-base font-mono uppercase tracking-widest text-brand-amber inline-block"
               >
-                Our Team
+                Who We Are
               </motion.span>
             </div>
             <h1 className="text-5xl md:text-7xl lg:text-[6rem] font-serif tracking-tighter leading-[0.9] mb-10 max-w-5xl text-black flex flex-col items-center md:items-start overflow-visible py-2">
@@ -95,7 +92,7 @@ const WhoWeAre = () => {
                 }}
                 className="block"
               >
-                The people
+                The thinking
               </motion.span>
               <motion.span
                 initial={{ y: "110%", opacity: 0 }}
@@ -112,87 +109,10 @@ const WhoWeAre = () => {
             </h1>
 
             <p className="text-xl md:text-2xl text-neutral-600 max-w-2xl font-light leading-relaxed">
-              We work closely with founders and teams to figure out what their
+              We work closely with brands and teams to figure out what their
               brand actually needs—and then help them move.
             </p>
           </motion.div>
-        </div>
-      </section>
-
-      {/* FOUNDING TEAM SECTION */}
-      <section className="py-24 md:py-32 px-6 lg:px-12 bg-white">
-        <div className="max-w-7xl mx-auto">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: "-100px" }}
-            transition={{ duration: 0.8 }}
-            className="mb-20 text-center"
-          >
-            <h2 className="text-4xl md:text-6xl font-serif tracking-tight mb-6">
-              Founding Team
-            </h2>
-            <div className="w-16 h-1 bg-brand-amber mx-auto"></div>
-          </motion.div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-16 max-w-4xl mx-auto">
-            {/* Founder 1 */}
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-100px" }}
-              transition={{ duration: 0.8, delay: 0.1 }}
-              className="group flex flex-col items-center text-center"
-            >
-              <div className="w-full max-w-[280px] aspect-square rounded-full mb-8 overflow-hidden bg-neutral-50 border border-neutral-100 flex items-center justify-center relative">
-                <div className="absolute inset-0 bg-brand-amber/5 group-hover:bg-brand-amber/20 transition-colors duration-500 rounded-full"></div>
-                <img
-                  src={founder1}
-                  alt="Founder 1"
-                  className="w-full h-full object-cover transition-all duration-500 group-hover:scale-110"
-                />
-              </div>
-              <h3 className="text-3xl font-serif mb-2">Dr Ananthu S.</h3>
-              <div className="min-h-[3rem] flex justify-center mb-4 px-2 w-full">
-                <h4 className="text-brand-amber font-medium text-xs tracking-widest uppercase leading-snug max-w-[280px]">
-                  Founder | Principal, Brand Strategy &amp; Intelligence
-                </h4>
-              </div>
-              <p className="text-neutral-500 font-light text-base md:text-lg max-w-[320px] leading-relaxed">
-                Former academic. Sharp pattern thinker. Blends research depth
-                with a creative edge to turn insights into clear, effective
-                direction.
-              </p>
-            </motion.div>
-
-            {/* Founder 3 */}
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-100px" }}
-              transition={{ duration: 0.8, delay: 0.3 }}
-              className="group flex flex-col items-center text-center"
-            >
-              <div className="w-full max-w-[280px] aspect-square rounded-full mb-8 overflow-hidden bg-neutral-50 border border-neutral-100 flex items-center justify-center relative">
-                <div className="absolute inset-0 bg-brand-amber/5 group-hover:bg-brand-amber/20 transition-colors duration-500 rounded-full"></div>
-                <img
-                  src={founder3}
-                  alt="Founder 3"
-                  className="w-full h-full object-cover transition-all duration-500 group-hover:scale-110"
-                />
-              </div>
-              <h3 className="text-3xl font-serif mb-2">Swathi Suresh</h3>
-              <div className="min-h-[3rem] flex justify-center mb-4 px-2 w-full">
-                <h4 className="text-brand-amber font-medium text-xs tracking-widest uppercase leading-snug max-w-[280px]">
-                  Co-Founder | Director, People &amp; Ops
-                </h4>
-              </div>
-              <p className="text-neutral-500 font-light text-base md:text-lg max-w-[320px] leading-relaxed">
-                Corporate roots, but not confined by them. Where structure meets
-                creativity—and things click into place.
-              </p>
-            </motion.div>
-          </div>
         </div>
       </section>
 

@@ -619,7 +619,7 @@ const Index = () => {
         </div>
       </motion.section>
 
-      {/* INTELLIGENCE PREVIEW */}
+      {/* OBSERVATIONS PREVIEW */}
       <section className="py-24 md:py-32 bg-white text-black px-6 lg:px-12">
         <div className="max-w-7xl mx-auto border-t border-neutral-200 pt-16 flex flex-col lg:flex-row justify-between items-start lg:items-end gap-12">
           <motion.div
@@ -630,7 +630,7 @@ const Index = () => {
             className="max-w-2xl"
           >
             <h2 className="text-sm font-mono tracking-widest text-black/60 uppercase mb-8">
-              Intelligence
+              Observations
             </h2>
             <h3 className="text-4xl md:text-6xl font-medium tracking-tight leading-[1.05] mb-6">
               On markets, culture, and brands.
@@ -647,11 +647,11 @@ const Index = () => {
             transition={{ delay: 0.2, duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
           >
             <Link
-              to="/intelligence"
+              to="/observations"
               className="group flex items-center gap-3 text-black hover:text-black/70 transition-colors uppercase tracking-widest text-sm font-medium border-b border-black pb-2 hover:border-black/70"
             >
               <ArrowRight className="w-5 h-5 group-hover:-translate-y-1 group-hover:translate-x-1 transition-transform" />
-              Read Intelligence
+              Read Observations
             </Link>
           </motion.div>
         </div>

@@ -47,7 +47,7 @@ const DualitySplit = () => {
               animate={{ letterSpacing: hoveredLeft ? "0.25em" : "0.1em" }}
               transition={{ duration: 0.4 }}
             >
-              Intelligence
+              Observations
             </motion.span>
             <h2 className="text-4xl md:text-6xl font-serif tracking-tighter mt-4 uppercase">
               What We
@@ -92,10 +92,10 @@ const DualitySplit = () => {
               </motion.div>
             ))}
             <Link
-              to="/intelligence"
+              to="/observations"
               className="inline-flex items-center gap-2 text-sm font-sans font-semibold tracking-tight text-primary mt-4"
             >
-              Explore Intelligence
+              Explore Observations
               <motion.span
                 animate={{ x: hoveredLeft ? 6 : 0 }}
                 transition={{ duration: 0.3 }}

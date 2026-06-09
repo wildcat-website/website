@@ -10,7 +10,7 @@ import Index from "./pages/Index.tsx";
 import NotFound from "./pages/NotFound.tsx";
 import Capabilities from "./pages/Capabilities.tsx";
 import Interventions from "./pages/Interventions.tsx";
-import Intelligence from "./pages/Intelligence.tsx";
+import Observations from "./pages/Intelligence.tsx";
 import WhoWeAre from "./pages/WhoWeAre.tsx";
 import { SmoothScroll } from "./components/SmoothScroll.tsx";
 
@@ -43,7 +43,8 @@ const App = () => {
                 <Route path="/" element={<Index />} />
                 <Route path="/capabilities" element={<Capabilities />} />
                 <Route path="/interventions" element={<Interventions />} />
-                <Route path="/intelligence" element={<Intelligence />} />
+                <Route path="/observations" element={<Observations />} />
+                <Route path="/intelligence" element={<Observations />} />
                 <Route path="/who-we-are" element={<WhoWeAre />} />
                 {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
                 <Route path="*" element={<NotFound />} />

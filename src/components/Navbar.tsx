@@ -13,7 +13,7 @@ const navLinks = [
   { label: "Home", href: "/" },
   { label: "Capabilities", href: "/capabilities" },
   { label: "Interventions", href: "/interventions" },
-  { label: "Intelligence", href: "/intelligence" },
+  { label: "Observations", href: "/observations" },
   { label: "Who We Are", href: "/who-we-are" },
 ];
 

@@ -30,7 +30,7 @@ const articles = [
   {
     number: "04",
     title: "The Trust Deficit Index",
-    category: "Intelligence",
+    category: "Observations",
     readTime: "6 min",
     excerpt:
       "Our proprietary metric measuring institutional trust erosion across 12 global markets.",
@@ -62,10 +62,10 @@ const EditorialGrid = () => {
         <div className="flex items-baseline justify-between mb-12">
           <div>
             <span className="text-xs font-sans uppercase tracking-widest text-muted-foreground">
-              Intelligence Hub
+              Observations Hub
             </span>
             <h2 className="text-3xl md:text-5xl font-serif tracking-tighter mt-2 uppercase">
-              Recent <span className="text-primary">Intelligence</span>
+              Recent <span className="text-primary">Observations</span>
             </h2>
           </div>
           <span className="hidden md:inline text-sm font-sans text-muted-foreground tracking-tight">

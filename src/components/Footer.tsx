@@ -62,10 +62,10 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  to="/intelligence"
+                  to="/observations"
                   className="text-sm text-neutral-400 hover:text-white transition-colors flex items-center gap-2 group"
                 >
-                  Intelligence
+                  Observations
                   <ArrowRight className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" />
                 </Link>
               </li>
