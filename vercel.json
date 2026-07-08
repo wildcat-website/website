@@ -1,4 +1,17 @@
 {
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "wildcat-nine.vercel.app"
+        }
+      ],
+      "destination": "https://www.wildcatdigital.in/$1",
+      "permanent": true
+    }
+  ],
   "rewrites": [
     {
       "source": "/((?!api|_next/static|_next/image|favicon.ico).*)",
