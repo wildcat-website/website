@@ -1,14 +1,23 @@
-# Wildcat
+# Wildcat Digital
 
-Wildcat is a premium strategic brand building and category design consultancy based in Bangalore, India. 
+> Strategic brand and marketing partner helping ambitious brands achieve growth through market insight, brand strategy, and marketing-led growth.
 
-## Core Capabilities
-- **Market Intelligence:** Uncovering market movements, audience insights, and strategic brand wins.
-- **Positioning & Category Strategy:** Designing business positions that define market categories.
-- **Messaging & Authority Systems:** Converting founder/corporate expertise into market trust and influence.
-- **Demand & Growth Infrastructure:** Developing scalable marketing systems to convert attention into growth.
+## Important Notes
+- This is a single-page website with no external subdirectories, documentation, or blog sections.
+- Core focus is exclusively centered on premium B2B brand strategy, category positioning, and marketing growth consulting.
 
-## Primary Contact & Location
-- Website: https://www.wildcatdigital.in
-- Location: Bangalore, India
-- Email: info@wildcatdigital.in
+## Services
+
+### Brand Strategy
+- [Market & Cultural Insight](https://www.wildcatdigital.in/): Research-driven understanding of market dynamics and cultural trends.
+- [Brand Positioning](https://www.wildcatdigital.in/): Strategic category design to cut through competitive market noise.
+- [Brand Identity](https://www.wildcatdigital.in/): Systems for creating memorable corporate narratives and brand experiences.
+
+### Marketing Growth
+- [Marketing Strategy](https://www.wildcatdigital.in/): Data-driven B2B marketing approaches engineered for long-term scalability.
+- [Marketing-Led Growth](https://www.wildcatdigital.in/): Demand generation and organizational growth initiatives driven by strategic marketing.
+- [Traction Building](https://www.wildcatdigital.in/): Frameworks built to generate, capture, and maintain early and mid-market velocity.
+
+## Company
+- [About](https://www.wildcatdigital.in/): Information detailing our approach as a strategic partner for brand growth and market positioning.
+- [Contact](https://www.wildcatdigital.in/): Inquiries for dedicated brand strategy, growth infrastructure, and marketing consultations.
